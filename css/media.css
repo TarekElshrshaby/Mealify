@@ -1,0 +1,243 @@
+
+@media (max-width: 1280px)  {
+
+}
+@media (max-width: 1024px)  {
+    .header{
+        height: 1250px;
+      
+        .container{
+            
+            .content{
+                text-align: center;
+                h2{
+                    max-width: 500px;
+                }
+                .watchi{
+                    justify-content: center;
+                    gap: 20px;
+                   
+                }
+            }
+        
+        flex-direction: column-reverse;  
+       
+        .imganimation{
+            img{
+                width: 700px ;
+            }
+        }
+       
+    }  
+  }
+  .profesional{
+    .container{
+        width: 90%;
+
+    
+    .cards{
+        
+        display: flex;
+        flex-wrap: wrap;
+        .card{
+            width: 50%;
+        }
+        
+        
+      
+    }
+}
+  }
+  .gallery{
+    .container{
+        .box-gallery{
+            columns: 2;
+        }
+    }
+  }
+  .contact{
+    .details{
+        .data{
+           width: 48%;
+
+        
+        
+    }
+    }
+  }
+  .footer{
+    .container{
+        .inner{
+            .mealify{
+                width: 48%;
+                order: 1;
+            }
+            .subscribe{
+                width: 100%;
+                order: 3;
+            }
+            .Touch{
+                width: 49%;
+                order: 2;
+            }
+        }
+    }
+  }
+
+
+
+
+
+}
+@media (max-width: 768px)  {
+    .navbar{
+        .links{
+            display: none;
+        }
+        .icon{
+            margin-left: 150px;
+        }
+        .menu{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .header{
+        height: 1050px;
+      
+        .container{
+            
+            .content{
+                text-align: center;
+                h2{
+                    max-width: 700px;
+                }
+                .watchi{
+                    justify-content: center;
+                    gap: 20px;
+                    .btn{
+                        border-radius: 100vh 100vh 100vh ;
+                    }
+                }
+            }
+        
+        flex-direction: column-reverse;  
+       
+        .imganimation{
+            img{
+                width: 350px ;
+            }
+        }
+       
+    }  
+  }
+  .profesional{
+    .container{
+        width: 100%;
+
+    
+    .cards{
+        
+        
+        .card{
+            width: 100%;
+        }
+        
+        
+      
+    }
+}
+  }
+  .gallery{
+    .container{
+        .box-gallery{
+            display: flex;
+            flex-wrap: wrap;
+            columns: 1;
+
+            .pizza{
+                order: 1;
+            }
+            .burger{
+                order: 2;
+            }
+
+            .pizzablack{
+                order: 3;
+            }
+            .frittata{
+                order: 4;
+            }
+            .steaks{
+                order: 5;
+            }
+            .fried-chicken{
+                order: 6;
+            }
+            .kebab{
+                order: 7;
+            }
+
+        }
+    }
+}
+
+
+.contact{
+
+    .details{
+        .data{
+            width: 100%;
+        }
+    }
+    form{
+        .inputs{
+            gap: 1.125rem;
+            input{
+
+                width: 97.5%;
+            }
+        }
+    }
+
+}
+ 
+.footer{
+    .container{
+        .inner{
+           
+            
+            .mealify{
+                width: 100%;
+            }
+                
+            .subscribe{
+                width: 100%;
+                .input-sub{
+                    input{
+                        width: 100%;
+                        margin-bottom: .625rem;
+                    }
+                    button{
+                        width: 100%;
+                    }
+                    .quick{
+                        ul{
+                            li{
+                                width: 48%;
+                            }
+                        }
+                    }
+                }
+            }
+            .Touch{
+                width: 100%;
+            }
+       
+    }
+}
+}
+
+
+
+}
